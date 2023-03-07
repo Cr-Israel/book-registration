@@ -24,7 +24,7 @@ const port = 3000;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('home');
+    res.render('index');
 });
 
 app.post('/books/insertbook', (req, res) => {
